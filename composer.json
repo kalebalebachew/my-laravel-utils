@@ -5,8 +5,11 @@
     "license": "MIT",
     "autoload": {
       "psr-4": {
-        "QueryUtils\\": "src/"
-      }
+        "MyLaravelUtils\\": "src/"
+      },
+      "files": [
+        "src/helpers.php"
+      ]
     },
     "require": {
       "php": ">=8.0",
