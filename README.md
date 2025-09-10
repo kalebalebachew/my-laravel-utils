@@ -11,3 +11,11 @@ More helpers will be added over time.
 
 ```bash
 composer require kalebalebachew/my-laravel-utils
+```
+
+## Supported Functions
+
+- **`parseMultiParam(string $key): array`**  
+  Get all values for a query parameter using a comma-separated format.  
+
+👉 See [FUNCTIONS.md](FUNCTIONS.md) for usage examples.
