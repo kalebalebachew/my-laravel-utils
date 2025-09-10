@@ -1,0 +1,17 @@
+{
+    "name": "kalebalebachew/my-laravel-utils",
+    "description": "Helper functions I use in my Laravel projects",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "QueryUtils\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=8.0",
+      "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+      "illuminate/http": "^9.0|^10.0|^11.0|^12.0"
+    }
+  }
+  
